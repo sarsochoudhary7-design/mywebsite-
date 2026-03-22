@@ -1,2 +1,75 @@
-# mywebsite-
-Clothing brand
+<!DOCTYPE html>
+<html>
+<head>
+  <title>StreetWear Store</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #111;
+      color: white;
+      text-align: center;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .product {
+      border: 1px solid #444;
+      margin: 15px;
+      padding: 15px;
+      width: 250px;
+    }
+    img {
+      width: 100%;
+    }
+    button {
+      padding: 10px;
+      background: red;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>🔥 StreetWear Collection 🔥</h1>
+
+<div class="container">
+
+  <div class="product">
+    <img src="https://via.placeholder.com/250">
+    <h2>Black Hoodie</h2>
+    <button onclick="buy1()">Buy Now</button>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/250">
+    <h2>Anime T-Shirt</h2>
+    <button onclick="buy2()">Buy Now</button>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/250">
+    <h2>Sigma Tee</h2>
+    <button onclick="buy3()">Buy Now</button>
+  </div>
+
+</div>
+
+<script>
+function buy1() {
+  window.location.href = "LINK_1";
+}
+function buy2() {
+  window.location.href = "LINK_2";
+}
+function buy3() {
+  window.location.href = "LINK_3";
+}
+</script>
+
+</body>
+</html> 
